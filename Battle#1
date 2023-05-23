@@ -1,0 +1,21 @@
+<!--CSS BATTLE #1 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> Starting Practice CSS </title>
+<style>
+body {
+  background-color:#5d3a3a;
+}
+div {
+  margin:-8px;
+  width:200px;
+  height:200px;
+  background-color:#b5e0ba;
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
