@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#62374e;
+  }
+  #box-1 {
+    margin-left:42px;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+  #box-2 {
+    margin-left: 42px;
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+  #box-3 {
+    margin-left: 292px;
+    margin-top: -50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+  #box-4 {
+    margin-left: 292px;
+    margin-top: -200px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+</style>
+<body>
+<div id="container">
+<div id="box-1"></div>
+<div id="box-2"></div>
+<div id="box-3"></div>
+<div id="box-4"></div>
+</div>
+</body>
+</html>
