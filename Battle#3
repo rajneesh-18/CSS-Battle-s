@@ -1,0 +1,56 @@
+<!--Completed #3 challenge-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#6592CF;
+  }
+  .container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .box {
+    margin:auto;
+    background: #243D83;
+    width: 300px;
+    height:150px;
+  }
+  .circle-1{
+    background:#EEB850;
+    margin:auto;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:absolute;
+  }
+  .circle-2{
+    background:#243D83;
+    margin:auto;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute;
+  }
+  .circle-3{
+    background:#6592CF;
+    margin:auto;
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    position:absolute;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box"></div>
+<div class="circle-3"></div>
+<div class="circle-2"></div>
+<div class="circle-1"></div>
+</div>
+</body>
+</html>
