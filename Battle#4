@@ -1,0 +1,48 @@
+<!--#4 challenge completed ups n down-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#62306D;
+  }
+  #leftdown {
+    width:100px;
+    height:100px;
+    margin:142px;
+    margin-left:45px;
+    border-bottom-left-radius:57%;
+    border-bottom-right-radius:57%;
+    background:#F7EC7D;
+    position:absolute;
+  }
+  #midup {
+    width:100px;
+    height:100px;
+    margin:42px;
+    border-top-left-radius:57%;
+    border-top-right-radius:57%;
+    margin-left:145px;
+    background:#F7EC7D;
+    position:absolute;
+  }
+  #rightdown {
+    width:97px;
+    height:100px;
+    margin:142px;
+    margin-left:245px;
+    border-bottom-left-radius:52%;
+    border-bottom-right-radius:52%;
+    background:#F7EC7D;
+    position:absolute;
+  }
+</style>
+</head>
+<body>
+<div id="container">
+<div id="leftdown"></div>
+<div id="midup"></div>
+<div id="rightdown"></div>
+</div>
+</body>
+</html>
