@@ -1,0 +1,44 @@
+<!--let's go for the #5 challenge acid rain-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#0B2429;
+  }
+  .circle {
+    width: 120px;
+    height: 120px;
+    margin:30px;
+    margin-left:192px;
+    border-radius:50%;
+    background: #F3AC3C;
+  }
+  .drop-first {
+    width: 120px;
+    height: 120px;
+    margin:-90px;
+    margin-left:132px;
+    border-radius:50%;
+    border-top-right-radius:0px;
+    background:#998235;
+  }
+  .drop-second {
+    width: 120px;
+    height: 120px;
+    margin:30px;
+    margin-left:72px;
+    border-radius:50%;
+    border-top-right-radius:0px;
+    background:#F3AC3C;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="circle"></div>
+<div class="drop-first"></div>
+<div class="drop-second"></div>
+</div>
+</body>
+</html>
