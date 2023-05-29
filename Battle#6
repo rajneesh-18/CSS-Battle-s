@@ -1,0 +1,42 @@
+<!-- #6 Challenge completed Mising Slice-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#E3516E;
+  }
+  .circle-part-one {
+    margin:50px;
+    margin-left:95px;
+    width: 100px;
+    height: 100px;
+    background:#51B5A9;
+    border-top-left-radius:100%;
+  }
+  .circle-part-second{
+    margin:-150px;
+    margin-left:195px;
+    width:100px;
+    height: 100px;
+    background:#FADE8B;
+    border-top-right-radius:100%;
+  }
+  .circle-part-three{
+    margin:150px;
+    margin-left:95px;
+    width: 100px;
+    height: 100px;
+    background:#F7F3D7;
+    border-bottom-left-radius:100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="circle-part-one"></div>
+<div class="circle-part-second"></div>
+<div class="circle-part-three"></div>  
+</div>
+</body>
+</html>
