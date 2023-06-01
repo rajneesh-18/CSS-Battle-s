@@ -1,0 +1,48 @@
+<!-- #9 challenge completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#222730;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px;
+  }
+  .first-square {
+    width:400px;
+    height:150px;
+    background:#4CAAB3;
+    position:absolute;
+  }
+  .second-square{
+    width:250px;
+    height:250px;
+    background:#222730;
+    position:absolute;
+    transform:rotate(45deg);
+  }
+  .third-square{
+    width:150px;
+    height:150px;
+    background:#4CAAB3;
+    position:absolute;
+    transform:rotate(45deg);
+  }
+  .circle-s{
+    background:#393E46;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:absolute;
+  }
+</style>
+</head>
+<body>
+<div class="first-square"></div>
+<div class="second-square"></div>
+<div class="third-square"></div>
+<div class="circle-s"></div>
+</body>
+</html>
