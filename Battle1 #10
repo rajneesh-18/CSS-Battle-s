@@ -1,0 +1,92 @@
+<!--#10 One more challenge completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    display:flex;
+    background:#62306D;
+    justify-content:center;
+    align-items:center;
+  } 
+  .big-rect {
+    margin:0;
+    position:absolute;
+    margin-top:200px;
+    width: 300px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  .high-rect{
+    position:absolute;
+    margin:0;
+    background:#F7EC7D;
+    height:200px;
+    width:100px;
+    margin-top:90px;
+  }
+  .out-circ1{
+    margin-left:-200px;
+    position:absolute;
+    margin-top:100px;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    background:#AA445F;
+  }
+  .in-circ1{
+    margin-left:-200px;
+    position:absolute;
+    margin-top:100px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background:#E38F66;
+  }
+  .out-circ2{
+    position:absolute;
+    margin-top:-100px;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    background:#E38F66;
+  }
+  .in-circ2{
+    position:absolute;
+    margin-top:-100px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background:#AA445F;
+  }
+  .out-circ3{
+    margin-right:-200px;
+    position:absolute;
+    margin-top:100px;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    background:#AA445F;
+  }
+  .in-circ3{
+    margin-right:-200px;
+    position:absolute;
+    margin-top:100px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background:#E38F66;
+  }
+</style>
+</head>
+<body>
+<div class="big-rect"></div>
+<div class="high-rect"></div>
+<div class="out-circ1"></div>
+<div class="in-circ1"></div>
+<div class="out-circ2"></div>
+<div class="in-circ2"></div>
+<div class="out-circ3"></div>
+<div class="in-circ3"></div>
+</body>
+</html>
