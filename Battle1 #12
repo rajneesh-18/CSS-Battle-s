@@ -1,0 +1,106 @@
+<!-- #12 Cahllenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#F5D6B4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .out-circle1 {
+    transform:rotate(180deg);
+    margin-left:-160px;
+    margin-top:44px;
+    position:absolute;
+    width: 100px;
+    height:55px;
+    background:#D86F45;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  .in-circle1 {
+    transform:rotate(180deg);
+    margin-left:-160px;
+    margin-top:25px;
+    position:absolute;
+    width:65px;
+    height:35px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  .out-circle2 {
+    margin-top:-45px;
+    position:absolute;
+    width: 95px;
+    height: 55px;
+    background:#D86F45;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  .in-circle2 {
+    margin-top:-5px;
+    position:absolute;
+    width: 60px;
+    height: 55px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  
+  .out-circle3 {
+    transform:rotate(180deg);
+    margin-right:-160px;
+    margin-top:45px;
+    position:absolute;
+    width: 100px;
+    height: 55px;
+    background:#D86F45;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  
+  .in-circle3 {
+    transform:rotate(180deg);
+    margin-right:-160px;
+    margin-top:25px;
+    position:absolute;
+    width:64px;
+    height:35px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+  }
+  .small-1{
+    margin-top:-5px;
+    width:18px;
+    height:18px;
+    background:#D86F45;
+    margin-left:242px;
+    border-radius:100%;
+    position:absolute;
+  }
+  .small-2{
+    margin-top:-5px;
+    width:18px;
+    height:18px;
+    background:#D86F45;
+    margin-right:242px;
+    border-radius:100%;
+    position:absolute;
+  }
+</style>
+</head>
+<body>
+<div class="out-circle1"></div>
+<div class="in-circle1"></div>
+<div class="out-circle2"></div>
+<div class="in-circle2"></div>
+<div class="out-circle3"></div>
+<div class="in-circle3"></div>
+<div class="small-1"></div>
+<div class="small-2"></div>
+</body>
+</html>
