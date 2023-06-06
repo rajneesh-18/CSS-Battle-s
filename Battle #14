@@ -1,0 +1,56 @@
+<!-- #14 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+    background:#F2F2B6;
+  }
+  .triangle-1{
+  transform:rotate(180deg);  
+  margin-top:85px;  
+  margin-left:75px;  
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 72px solid transparent;
+  border-bottom: 130px solid #FD4602;
+  }
+  .triangle-2{
+  position:absolute;
+  transform:rotate(180deg);  
+  margin-top:-130px;  
+  margin-left:52px;  
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 130px solid #FF6D00;
+  }
+  .triangle-3 {
+  margin-top:-130px;
+  margin-left:175px;  
+  width: 0;
+  height: 0;
+  border-left: 82px solid transparent;
+  border-right: 74px solid transparent;
+  border-bottom: 130px solid #FF6D00;
+}
+  .triangle-4 {
+  margin-top:-130px;
+  margin-left:160px;  
+  width: 0;
+  height: 0;
+  border-left:80px solid transparent;
+  border-right: 71px solid transparent;
+  border-bottom: 130px solid #FD4602;
+}
+</style>
+</head>
+<body>
+<div class="triangle-1" ></div>
+<div class="triangle-2" ></div>
+<div class="triangle-3" ></div>
+<div class="triangle-4" ></div>
+</body>
+</html>
