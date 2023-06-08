@@ -7,6 +7,7 @@ body{
     background:#09042A;
   }
   .circle-1{
+    position:absolute;
     margin-top:75px;
     margin-left:68px;
     border-radius:50%;
@@ -21,15 +22,17 @@ body{
     width:150px;
     height:150px;
     background:#E78481;
-    overflow:hidden;
+    position:absolute;
   }
   
   .circle-in{
-    margin-top:-150px;
-    margin-left:168px;
-    border-radius:50%;
-    width:150px;
-    height:150px;
+    position:absolute;
+    margin-top:-115px;
+    margin-left:152px;
+    border-radius:99px 0px 99px 0px;
+    transform:rotate(-45deg);
+    width:80px;
+    height:80px;
     background:#09042A;
   }  
   </style>
