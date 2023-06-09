@@ -1,0 +1,60 @@
+<!-- #16 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .circle-1 {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background:#998235;
+    transform:rotate(45deg);
+    border-radius:50%;
+    border-bottom-left-radius:0px;
+  }
+  .circle-2 {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background:#998235;
+    transform:rotate(225deg);
+    border-radius:50%;
+    border-bottom-left-radius:0px;
+  }
+  .circle-3 {
+    position:absolute;
+    width: 180px;
+    height: 180px;
+    background:#0B2429;
+    border-radius:50%;
+  }
+  .circle-4 {
+    position:absolute;
+    width: 140px;
+    height: 140px;
+    background:#F3AC3C;
+    border-radius:50%;
+  }
+  .circle-5 {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background:#0B2429;
+    border-radius:50%;
+  }
+</style>
+</head>
+<body>
+<div class="circle-1"></div>
+<div class="circle-2"></div>
+<div class="circle-3"></div>
+<div class="circle-4"></div>
+<div class="circle-5"></div>
+</body>
+</html>
