@@ -1,0 +1,99 @@
+<!-- #17 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#09042A;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+  }
+  .circle-a{
+    position:absolute;
+    background:#E78481;
+    width:80px;
+    height:80px;
+    margin-left:-120px;
+    border-radius:50%;
+  }
+  .circle-1 {
+    margin-left:-120px;
+    position:absolute;
+    width:58px;
+    height:58px;
+    background:#09042A;
+    border-radius:50%;
+  }
+  .circle-b{
+    position:absolute;
+    background:#E78481;
+    width:80px;
+    height:80px;
+    margin-right:-120px;
+    border-radius:50%;
+  }
+  .circle-2 {
+    margin-right:-120px;
+    position:absolute;
+    width:58px;
+    height:58px;
+    background:#09042A;
+    border-radius:50%;
+  }
+  .circle-3 {
+    margin-top:-105px;
+    margin-right:0px;
+    position:absolute;
+    width:80px;
+    height:80px;
+    background:#09042A;
+    border-radius:50%;
+  }
+  .in-circle-3 {
+    margin-top:-105px;
+    margin-right:0px;
+    position:absolute;
+    width:60px;
+    height:60px;
+    background:#F5BB9C;
+    border-radius:50%;
+  }
+  .circle-4 {
+    margin-top:105px;
+    margin-right:0px;
+    position:absolute;
+    width:80px;
+    height:80px;
+    background:#09042A;
+    border-radius:50%;
+  }
+  .in-circle-4 {
+    margin-top:105px;
+    margin-right:0px;
+    position:absolute;
+    width:60px;
+    height:60px;
+    background:#F5BB9C;
+    border-radius:50%;
+  }
+  .rectangle{
+    background:#E78481;
+    width:60px;
+    height:80px;
+    border-radius:500px;
+  }
+</style>
+</head>
+<body>
+<div class="circle-a"></div>
+<div class="circle-b"></div>
+<div class="circle-1"></div>
+<div class="circle-2"></div>
+<div class="circle-3"></div>
+<div class="in-circle-3"></div>
+<div class="circle-4"></div>
+<div class="in-circle-4"></div>
+<div class="rectangle"></div>
+</body>
+</html>
