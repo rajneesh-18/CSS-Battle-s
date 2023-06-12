@@ -1,0 +1,133 @@
+<!-- #18 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#5C434C;
+  }
+  .piece-1 {
+    position:absolute;
+    margin-left:3px;
+    margin-top:2px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+   .piece-2 {
+    position:absolute; 
+    margin-left:3px;
+    margin-top:102px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+   .piece-3 {
+    position:absolute; 
+    margin-left:3px;
+    margin-top:202px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+   .piece-4 {
+    position:absolute; 
+    margin-left:103px;
+    margin-top:2px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+   .piece-5 {
+    position:absolute; 
+    margin-left:203px;
+    margin-top:2px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+   .piece-6 {
+    position:absolute; 
+    margin-left:303px;
+    margin-top:2px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+  .piece-7 {
+    position:absolute; 
+    margin-left:103px;
+    margin-top:102px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+  .piece-8 {
+    position:absolute; 
+    margin-left:203px;
+    margin-top:102px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+  .piece-9 {
+    position:absolute; 
+    margin-left:303px;
+    margin-top:102px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+  .piece-10{
+    position:absolute; 
+    margin-left:103px;
+    margin-top:202px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+  .piece-11{
+    position:absolute; 
+    margin-left:203px;
+    margin-top:202px;
+    width: 80px;
+    height: 80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+  }
+  .piece-12 {
+    position:absolute; 
+    margin-left:303px;
+    margin-top:202px;
+    width: 80px;
+    height: 80px;
+    background:#F5D6B4;
+    border-top-left-radius:100px;
+  }
+</style>
+</head>
+<body>
+<div class="piece-1"></div>
+<div class="piece-2"></div>
+<div class="piece-3"></div>
+<div class="piece-4"></div>
+<div class="piece-5"></div>
+<div class="piece-6"></div>
+<div class="piece-7"></div>
+<div class="piece-8"></div>
+<div class="piece-9"></div>
+<div class="piece-10"></div>
+<div class="piece-11"></div>
+<div class="piece-12"></div>
+</body>
+</html>
