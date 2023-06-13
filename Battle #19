@@ -1,0 +1,45 @@
+<!-- #19 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+    background:#0B2429;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .piece-1 {
+    margin-top:70px;
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    transform:rotate(135deg);
+    position:absolute;
+  }
+  .piece-2{
+    margin-left:-70px;
+    margin-top:-72px;
+    width: 70px;
+    height: 72px;
+    background:#998235;
+    transform:skew(0deg, -45deg);
+    position:absolute;
+  }
+  .piece-3{
+    margin-right:-70px;
+    margin-top:-73px;
+    width: 70px;
+    height: 72px;
+    background:#1A4341;
+    transform:skew(0deg, 45deg);
+    position:absolute;
+  }
+</style>
+</head>
+<body>
+<div class="piece-1"></div>
+<div class="piece-2"></div>
+<div class="piece-3"></div>
+</body>
+</html>
