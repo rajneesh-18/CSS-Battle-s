@@ -1,0 +1,97 @@
+<!-- #20 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+    background:#62306D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .rect-1 {
+    position:absolute;
+    margin-left:-60px;
+    width: 140px;
+    height: 100px;
+    background:#F7EC7D;
+  }
+  .rect-2 {
+    position:absolute;
+    margin-right:-140px;
+    width: 60px;
+    height: 100px;
+    background:#E38F66;
+  }
+  .piece-1{
+    transform:rotate(-180deg);
+    margin-top:-82px;
+    margin-left:-180px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-top-left-radius:50px;
+  }
+  .piece-2{
+    transform:rotate(90deg);
+    margin-top:82px;
+    margin-left:-180px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-top-left-radius:50px;
+  }
+  .piece-3{
+    transform:rotate(-90deg);
+    margin-top:-82px;
+    margin-right:-180px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-top-left-radius:50px;
+  }
+  
+  .piece-4{
+    transform:rotate(0deg);
+    margin-top:82px;
+    margin-right:-180px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-top-left-radius:50px;
+  }
+  .cir-1{
+    margin-right:-80px;
+    margin-top:-100px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+  }
+  .cir-2{
+    margin-right:-80px;
+    margin-top:100px;
+    background:#62306D;
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+  }
+</style>
+</head>
+<body>
+<div class="rect-1"></div>
+<div class="rect-2"></div>
+<div class="piece-1"></div>
+<div class="piece-2"></div>
+<div class="piece-3"></div>
+<div class="piece-4"></div>
+<div class="cir-1"></div>
+<div class="cir-2"></div>
+</body>
+</html>
