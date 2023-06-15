@@ -1,0 +1,60 @@
+<!-- #21 Challenge Completed--> 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .p1 {
+    position:absolute;
+    margin-left:-60px;
+    margin-top:-85px;
+    transform:rotate(45deg);
+    width: 30px;
+    height: 100px;
+    background:#F2994A;
+    border-bottom-left-radius:10px;
+  }
+  .p2{
+    position:absolute;
+    margin-left:-60px;
+    margin-top:15px;
+    transform:rotate(135deg);
+    width: 30px;
+    height: 60px;
+    background:#F2994A;
+    border-top-left-radius:5px;
+  }
+  .p3 {
+    position:absolute;
+    margin-right:-55px;
+    margin-top:82px;
+    transform:rotate(-135deg);
+    width: 30px;
+    height: 100px;
+    background:#2D9CDB;
+    border-bottom-left-radius:10px;
+  }
+  .p4{
+    position:absolute;
+    margin-right:-55px;
+    margin-top:-18px;
+    transform:rotate(135deg);
+    width: 30px;
+    height: 60px;
+    background:#2D9CDB;
+    border-bottom-right-radius:5px;
+  }
+</style>
+</head>
+<body>
+<div class="p1"></div>
+<div class="p2"></div>
+<div class="p3"></div>
+<div class="p4"></div>
+</body>
+</html>
