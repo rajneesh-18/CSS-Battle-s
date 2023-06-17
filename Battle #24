@@ -1,0 +1,58 @@
+<!-- #24 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#62306D;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }
+  .cir-1{
+    margin-left:-135;
+    position:absolute;
+    width: 100px;
+    height:100px;
+    background:#F7EC7D;
+    border-radius:50%;
+  }
+  .cir-2{
+    margin-right:-135px;
+    margin-top:0px;
+    position:absolute;
+    width: 100px;
+    height:100px;
+    background:#F7EC7D;
+    border-radius:50%;
+  }    
+  .str-1 {
+    margin-left:-135px;
+    margin-top:-100px;
+    position:absolute;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    width: 100px;
+    height: 100px;
+    background:#AA445F;
+  }
+  .str-2 {
+    margin-top:100px;
+    transform:rotate(180deg);
+    margin-right:-135px;
+    position:absolute;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    width: 100px;
+    height: 100px;
+    background:#E38F66;
+  }
+</style>
+</head>
+<body>
+<div class="str-1"></div>
+<div class="cir-1"></div>
+<div class="str-2"></div>
+<div class="cir-2"></div>
+</body>
+</html>
