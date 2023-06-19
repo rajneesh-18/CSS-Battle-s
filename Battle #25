@@ -1,0 +1,58 @@
+<!--#25 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#998235;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+  }
+  .leaf-one{
+    position:absolute;
+    width: 80px;
+    height: 100px;
+    background: #1A4341;
+    border-radius:0px 50px;
+    margin-top:-80px;
+    margin-left:-100px;
+  }
+  .leaf-second{
+    position:absolute;
+    width: 80px;
+    height: 60px;
+    background: #F3AC3C;
+    border-radius:0px 50px;
+    margin-top:120px;
+    transform:rotate(deg);
+    margin-left:-100px;
+  }
+  .leaf-three{
+    position:absolute;
+    width: 80px;
+    height: 60px;
+    background: #F3AC3C;
+    border-radius:50px 0px;
+    margin-top:-120px;
+    transform:rotate(deg);
+    margin-right:-100px;
+  }
+  .leaf-four{
+    position:absolute;
+    width: 80px;
+    height: 100px;
+    background: #1A4341;
+    border-radius:50px 0px;
+    margin-top:80px;
+    margin-right:-100px;
+  }
+</style>
+</head>
+<body>
+<div class="leaf-one"></div>
+<div class="leaf-second"></div>
+<div class="leaf-three"></div>
+<div class="leaf-four"></div>
+</body>
+</html>
