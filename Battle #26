@@ -1,0 +1,78 @@
+<!-- #26 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .cir-1 {
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 120px;
+    height:60px;
+    margin-top:-160px;
+    margin-right:-200px;
+    background:#060F55;
+  }
+  .cir-2 {
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 120px;
+    height:60px;
+    margin-top:-160px;
+    margin-left:-200px;
+    background:#060F55;
+  }
+  .cir-3 {
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 120px;
+    height:60px;
+    transform:rotate(180deg);
+    margin-top:160px;
+    margin-right:0px;
+    background:#060F55;
+  }
+  .cir-4 {
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 80px;
+    height:50px;
+    margin-top:-130px;
+    margin-right:-200px;
+    background:#6592CF;
+  }
+  .cir-5 {
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 80px;
+    height:50px;
+    margin-top:-130px;
+    margin-left:-200px;
+    background:#6592CF;
+  }
+  .cir-6{
+    position:absolute;
+    border-radius:60px 60px 0  0;
+    width: 80px;
+    height:50px;
+    transform:rotate(180deg);
+    margin-top:130px;
+    margin-right:0px;
+    background:#6592CF;
+  }
+</style>
+</head>
+<body>
+<div class="cir-1"></div>
+<div class="cir-2"></div>
+<div class="cir-3"></div>
+<div class="cir-4"></div>
+<div class="cir-5"></div>
+<div class="cir-6"></div>
+</body>
+</html>
