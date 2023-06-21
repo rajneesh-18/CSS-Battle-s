@@ -1,0 +1,35 @@
+<!--#27 CHALLENGE COMPLETED-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#E38F66;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+  }
+  .circle {
+    border-radius:50%;
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background:#AA445F;
+  }
+  .pieces{
+    position:absolute;
+    width:80px;
+    height:80px;
+    transform:rotate(45deg);
+    border: 30px solid transparent;
+    border-radius:50%;
+    border-top-color:#F7EC7D;
+    border-bottom-color:#F7EC7D;
+  }
+  </style>
+</head>
+<body>
+<div class="circle"></div>
+<div class="pieces"></div>
+</body>
+</html>
