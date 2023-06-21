@@ -1,0 +1,102 @@
+<!--#28 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#1A4341;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+  }
+  .circle-1 {
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-right:-210px;
+    margin-top:-70px;
+    position:absolute;
+    background:#F3AC3C;
+  }
+  .p-1 {
+    transform:rotate(180deg);
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-right:-210px;
+    margin-top:70px;
+    position:absolute;
+    background:#998235;
+  }
+  .circle-2 {
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-left:-210px;
+    margin-top:-70px;
+    position:absolute;
+    background:#998235;
+  }
+  .p-2 {
+    transform:rotate(180deg);
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-left:-210px;
+    margin-top:70px;
+    position:absolute;
+    background:#F3AC3C;
+  }
+   .circle-3 {
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-left:-70px;
+    margin-top:70px;
+    position:absolute;
+    background:#998235;
+  } 
+   .p-3 {
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-left:-70px;
+    margin-top:-70px;
+    position:absolute;
+    background:#F3AC3C;
+   }
+  .circle-4 {
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-right:-70px;
+    margin-top:70px;
+    position:absolute;
+    background:#F3AC3C;
+  }
+  .p-4 {
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width: 50px;
+    height: 50px;
+    margin-right:-70px;
+    margin-top:-70px;
+    position:absolute;
+    background:#998235;
+  }
+</style>
+</head>
+<body>
+<div class="circle-1"></div>
+<div class="circle-2"></div>
+<div class="circle-3"></div>
+<div class="circle-4"></div>
+<div class="p-1"></div>
+<div class="p-2"></div>
+<div class="p-3"></div>
+<div class="p-4"></div>
+</body>
+</html>
