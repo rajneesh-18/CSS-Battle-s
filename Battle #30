@@ -1,0 +1,49 @@
+<!--#30 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+    justify-content:cemter;
+    display:flex;
+    align-items:center;
+  }
+   .rect-1 {
+    margin-top:-250px;
+    margin-left:-45px;
+    position:absolute;
+    width: 500px;
+    height: 50px;
+    background:#F7EC7D;
+  }
+  .rect-2 {
+    margin-top:-150px;
+    margin-left:-45px;
+    position:absolute;
+    width: 500px;
+    height: 50px;
+    background:#E38F66;
+  }
+  .rect-3 {
+    margin-left:-45px;
+    position:absolute;
+    width: 500px;
+    height: 100px;
+    background:#AA445F;
+  }
+  .rect-4 {
+    margin-top:200px;
+    margin-left:-45px;
+    position:absolute;
+    width: 500px;
+    height: 100px;
+    background:#62306D;
+  }</style>
+</head>
+<body>
+<div class="rect-1"></div>
+<div class="rect-2"></div>
+<div class="rect-3"></div>
+<div class="rect-4"></div>
+</body>
+</html>
