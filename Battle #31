@@ -1,0 +1,36 @@
+<!-- #31 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#AA445F;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }  
+  .semcirc-1 {
+    position:absolute;
+    margin-left:-150px;
+    border-radius:150px 150px 0px 0px;
+    width: 200px;
+    height: 100px;
+    background:#F7EC7D;
+    transform:rotate(-90deg);
+  }
+  .semcirc-2 {
+    transform:rotate(90deg);
+    position:absolute;
+    margin-right:-150px;
+    border-radius:150px 150px 0px 0px;
+    width: 200px;
+    height: 100px;
+    background:#E38F66;
+  }
+</style>
+</head>
+<body>
+<div class='semcirc-1'></div>
+<div class='semcirc-2'></div>
+</body>
+</html>
