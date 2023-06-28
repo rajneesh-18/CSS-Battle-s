@@ -1,0 +1,46 @@
+<!-- #35 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background:#293462;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+  }
+  .ice-1 {
+    position:absolute;
+    margin-top:-50px;
+    width: 100px;
+    height: 150px;
+    background:#FFF1C1;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+  }
+  .ice-2{
+    width:30px;
+    height:10px;
+    position:absolute;
+    margin-top:110px;
+    background:#A64942;
+  }
+  .ice-3{
+    width:30px;
+    height:40px;
+    position:absolute;
+    margin-top:160px;
+    background:#FE5F55;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+  }
+</style>
+</head>
+<body>
+<div class="ice-1"></div>
+<div class="ice-2"></div>
+<div class="ice-3"></div>
+</body>
+</html>
