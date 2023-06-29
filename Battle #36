@@ -1,0 +1,73 @@
+<!-- #36 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#1A4341;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  } 
+  .p-1 {
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    margin-top:100px;
+    margin-left:0px;
+    position:absolute;
+    width:50px;
+    height:200px;
+    background:#F3AC3C;
+  }
+  .p-2 {
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    margin-top:100px;
+    margin-left:300px;
+    position:absolute;
+    width:50px;
+    height:200px;
+    background:#F3AC3C;
+  }
+  .p-3 {
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    margin-top:100px;
+    margin-left:-300px;
+    position:absolute;
+    width:50px;
+    height:200px;
+    background:#F3AC3C;
+  }
+  .p-4 {
+    transform:rotate(180deg);
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    margin-top:-100px;
+    margin-left:150px;
+    position:absolute;
+    width:50px;
+    height:200px;
+    background:#998235;
+  }
+  .p-5 {
+    transform:rotate(180deg);
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    margin-top:-100px;
+    margin-left:-150px;
+    position:absolute;
+    width:50px;
+    height:200px;
+    background:#998235;
+  }
+</style>
+</head>
+<body>
+<div class="p-1"></div>
+<div class="p-2"></div>
+<div class="p-3"></div>
+<div class="p-4"></div>
+<div class="p-5"></div>
+</body>
+</html>
