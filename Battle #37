@@ -1,0 +1,46 @@
+<!-- #37 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background:#6592CF;
+  }
+  .s-1{
+    width:250px;
+    height:250px;
+    background:#243D83;
+    position:absolute;
+    transform:rotate(0deg);
+    margin-left:0px;
+    margin-top:0px;
+  }
+  .s-2{
+    width:150px;
+    height:150px;
+    background:#6592CF;
+    position:absolute;
+    transform:rotate(-165deg);
+    margin-left:0px;
+    margin-top:0px;
+  }
+  .s-3{
+    margin-left:0px;
+    margin-top:0px;
+    width:75px;
+    height:75px;
+    background:#243D83;
+    position:absolute;
+    transform:rotate(120deg);
+  }
+</style>
+</head>
+<body>
+<div class="s-1"></div>
+<div class="s-2"></div>
+<div class="s-3"></div>
+</body>
+</html>
