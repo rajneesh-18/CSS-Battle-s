@@ -1,0 +1,74 @@
+<!--#38 Challenge Completed-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background:#FFF1C1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .square-1{
+    margin-top:-100px;
+    margin-left:100px;
+    position:absolute;
+    width: 100px;
+    height: 200px;
+    background:#FE5F55;
+  }
+  .square-2{
+    transform:rotate(90deg);
+    margin-top:200px;
+    margin-left:-200px;
+    position:absolute;
+    width: 100px;
+    height: 200px;
+    background:#FE5F55;
+  }
+  .square-3{
+    margin-top:-100px;
+    margin-left:300px;
+    position:absolute;
+    width: 100px;
+    height: 200px;
+    background:#293462;
+  }
+  .square-4{
+    transform:rotate(90deg);
+    margin-top:200px;
+    margin-left:200px;
+    position:absolute;
+    width: 100px;
+    height: 200px;
+    background:#293462;
+  }
+  .square-5{
+    transform:rotate(90deg);
+    margin-top:50px;
+    margin-left:100px;
+    position:absolute;
+    width: 50px;
+    height: 100px;
+    background:#A64942;
+  }
+  .square-6{
+    transform:rotate(0deg);
+    margin-top:200px;
+    margin-left:-50px;
+    position:absolute;
+    width: 50px;
+    height: 100px;
+    background:#A64942;
+  }
+</style>
+</head>
+<body>
+<div class="square-1"></div>
+<div class="square-2"></div>
+<div class="square-3"></div>
+<div class="square-4"></div>
+<div class="square-5"></div>
+<div class="square-6"></div>
+</body>
+</html>
